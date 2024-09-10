@@ -18,7 +18,7 @@ Este é o frontend do projeto **Alunos Instituição**, desenvolvido com **React
 1. Acesse o diretório do projeto:
 
    ```bash
-   cd alunos-instituicao
+   cd frontend/
    ```
 
 2. Instale as dependências:
