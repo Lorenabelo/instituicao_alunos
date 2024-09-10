@@ -1,7 +1,8 @@
 import axios from 'axios';
 import { Aluno } from '../contexts/AlunoContext';
 
-const apiUrl = 'https://instituicao-alunos-back.onrender.com/api/alunos';
+// const apiUrl = 'https://instituicao-alunos-back.onrender.com/api/alunos';
+const apiUrl = import.meta.env.VITE_API_URL;
 
 export const AlunoService = {
   carregarAlunos: async () => {
